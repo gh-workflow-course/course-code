@@ -9,6 +9,11 @@ metadata:
   tags:
     - typescript
     - backstage
+  links:
+    - url: https://www.linux.org/
+      title: Learn More About Linux!
+      icon: dashboard
+      type: Learning Resources
 spec:
   type: website
   owner: guests
