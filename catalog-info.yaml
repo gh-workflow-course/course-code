@@ -1,23 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ctp-services-portal
-  title: CTP Services Portal
-  description: Developer services portal integrating multiple tools for the developer SDLC
+  name: rob-test-app
+  title: Rob Test App
+  description: Test Application
   annotations:
     backstage.io/techdocs-ref: dir:.
-    jenkins.io/job-full-name: CTPS_BB/ctp-services-portal
-    jira/project-key: DCWEBMQ3
-    jira-moo/board-id: '3184'
   tags:
     - typescript
     - backstage
-  links:
-    - title: Confluence Documentation
-      url: https://confluence.mutualofomaha.com/confluence/display/WAM/CTP+Service+Portal
-    - title: Jira Board
-      url: https://jira.mutualofomaha.com/jiradc/secure/RapidBoard.jspa?rapidView=3184
 spec:
   type: website
-  owner: bb-ctps-adm
-  lifecycle: production
+  owner: guests
+  lifecycle: experimental
