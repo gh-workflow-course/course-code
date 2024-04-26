@@ -2,10 +2,7 @@ site_name: Rob Test
 site_description: A guide on using the Rob Test Backstage App
 
 nav:
-  - Getting Started: index.md
+  - Intro: index.md
 
 plugins:
   - techdocs-core
-
-markdown_extensions:
-  - meta
