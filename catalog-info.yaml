@@ -15,6 +15,6 @@ metadata:
       icon: dashboard
       type: Learning Resources
 spec:
-  type: website
+  type: service
   owner: guests
   lifecycle: experimental
