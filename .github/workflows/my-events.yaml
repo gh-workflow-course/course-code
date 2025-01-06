@@ -8,5 +8,8 @@ jobs:
             - run: |
                 echo $GITHUB_SHA
                 echo $GITHUB_REF
+            - name: List files before
+              run: ls -al
             - uses: actions/checkout@v4
-            
+            - name: List files after
+              run: ls -al
